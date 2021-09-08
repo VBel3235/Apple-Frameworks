@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F506ABD326E83BFA00E90C26 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506ABD226E83BFA00E90C26 /* Apple_FrameworksApp.swift */; };
-		F506ABD526E83BFA00E90C26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506ABD426E83BFA00E90C26 /* ContentView.swift */; };
 		F506ABD726E83BFC00E90C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F506ABD626E83BFC00E90C26 /* Assets.xcassets */; };
 		F506ABDA26E83BFC00E90C26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F506ABD926E83BFC00E90C26 /* Preview Assets.xcassets */; };
+		F506ABE226E8423600E90C26 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506ABE126E8423600E90C26 /* Framework.swift */; };
+		F506ABE426E847A200E90C26 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506ABE326E847A200E90C26 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F506ABCF26E83BFA00E90C26 /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F506ABD226E83BFA00E90C26 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		F506ABD426E83BFA00E90C26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F506ABD626E83BFC00E90C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F506ABD926E83BFC00E90C26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F506ABDB26E83BFC00E90C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F506ABE126E8423600E90C26 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		F506ABE326E847A200E90C26 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				F506ABD226E83BFA00E90C26 /* Apple_FrameworksApp.swift */,
-				F506ABD426E83BFA00E90C26 /* ContentView.swift */,
+				F506ABE126E8423600E90C26 /* Framework.swift */,
 				F506ABD626E83BFC00E90C26 /* Assets.xcassets */,
 				F506ABDB26E83BFC00E90C26 /* Info.plist */,
 				F506ABD826E83BFC00E90C26 /* Preview Content */,
+				F506ABE326E847A200E90C26 /* FrameworkGridView.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F506ABD526E83BFA00E90C26 /* ContentView.swift in Sources */,
+				F506ABE426E847A200E90C26 /* FrameworkGridView.swift in Sources */,
+				F506ABE226E8423600E90C26 /* Framework.swift in Sources */,
 				F506ABD326E83BFA00E90C26 /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
