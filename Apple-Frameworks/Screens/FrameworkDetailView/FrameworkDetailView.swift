@@ -23,7 +23,7 @@ struct FrameworkDetailView: View {
             Spacer()
             
             FrameworkTitleView(framework: framework)
-                .padding(.top, 150)
+               
             
             Text(framework.description)
                 .font(.body)
